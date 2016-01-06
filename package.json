@@ -1,8 +1,14 @@
 {
-  "name": "reset",
-  "version": "v0.1.0",
-  "description": "reset css to default",
+  "name": "reset-css",
+  "version": "1.0.0",
+  "description": "reset css",
   "main": "index.js",
+  "dependencies": {
+    "gulp": "^3.9.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-uglifycss": "^1.0.5"
+  },
+  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -11,19 +17,13 @@
     "url": "git+https://github.com/fuymsn/reset-css.git"
   },
   "keywords": [
-    "reset.css"
+    "reset",
+    "css"
   ],
   "author": "Young",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/fuymsn/reset-css/issues"
   },
-  "homepage": "https://github.com/fuymsn/reset-css#readme",
-  "dependencies": {
-    "grunt": "^0.4.5",
-    "grunt-contrib-uglify": "^0.10.0"
-  },
-  "devDependencies": {
-    "grunt-contrib-cssmin": "^0.14.0"
-  }
+  "homepage": "https://github.com/fuymsn/reset-css#readme"
 }
